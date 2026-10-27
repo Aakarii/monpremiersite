@@ -1,27 +1,26 @@
-/* ===== Page ===== */
 body {
-    background-color: rgb(238, 229, 212);   /* beige */
+    background-color: rgb(238, 229, 212);   
     color: rgb(20, 20, 20);
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 17px;
     line-height: 1.8;
-    margin: 0;                              /* la bannière touche les bords */
+    margin: 0;                              
 }
 
-/* Le contenu est centré sur la page, mais le texte reste aligné à gauche */
+
 .contenu {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px 30px 60px 30px;
 }
 
-/* ===== Bannière ===== */
+
 .bg-image {
     background-image: linear-gradient(rgba(20, 28, 58, 0.65), rgba(20, 28, 58, 0.85)),
                       url(images/ff15-homepage.jpg);
     background-position: center;
     background-size: cover;
-    border-bottom: 6px solid rgb(120, 28, 32);   /* trait rouge foncé */
+    border-bottom: 6px solid rgb(120, 28, 32);  
     padding: 120px 30px;
     text-align: center;
 }
@@ -45,10 +44,9 @@ h1 {
     margin: 10px 0 0 0;
 }
 
-/* ===== Titres ===== */
 h2 {
-    background-color: rgb(20, 28, 58);          /* bleu navy */
-    border-left: 12px solid rgb(120, 28, 32);   /* rouge foncé */
+    background-color: rgb(20, 28, 58);          
+    border-left: 12px solid rgb(120, 28, 32);   
     font-family: 'Cinzel', serif;
     font-size: 28px;
     font-weight: 600;
@@ -56,7 +54,7 @@ h2 {
     text-transform: uppercase;
     padding: 12px 20px;
     margin: 70px 0 25px 0;
-    clear: both;                                /* passe sous les images */
+    clear: both;                                
 }
 
 h3 {
@@ -77,9 +75,8 @@ h4 {
     margin-top: 40px;
 }
 
-/* ===== Couleurs (classes) ===== */
 .or {
-    color: rgb(238, 229, 212);   /* beige, sur le fond navy des h2 */
+    color: rgb(238, 229, 212);   
 }
 
 .rouge {
@@ -90,7 +87,6 @@ h4 {
     color: rgb(20, 28, 58);
 }
 
-/* ===== Texte ===== */
 p {
     color: rgb(40, 43, 50);
     font-size: 17px;
@@ -112,19 +108,16 @@ strong {
     font-weight: bold;
 }
 
-/* ===== Images ===== */
 img {
-    box-shadow: 8px 8px 0 rgb(120, 28, 32);   /* ombre rouge "plate", style moderne */
+    box-shadow: 8px 8px 0 rgb(120, 28, 32);   
 }
 
-/* Grande image sous l'introduction */
 .center img {
     display: block;
     width: 100%;
     margin: 30px 0 10px 0;
 }
 
-/* Images des personnages, lieux et combats : à côté du texte */
 h3 + img {
     float: left;
     width: 320px;
@@ -132,13 +125,11 @@ h3 + img {
     margin: 5px 40px 20px 0;
 }
 
-/* Une image sur deux passe à droite */
 h3 + img:nth-of-type(even) {
     float: right;
     margin: 5px 0 20px 40px;
 }
 
-/* Image de l'équipe, tout en bas */
 h3 + img.team {
     display: block;
     float: none;
@@ -147,7 +138,6 @@ h3 + img.team {
     margin: 30px 0;
 }
 
-/* ===== Lien ===== */
 a {
     display: inline-block;
     background-color: rgb(120, 28, 32);
@@ -162,7 +152,6 @@ a:hover {
     background-color: rgb(20, 28, 58);
 }
 
-/* ===== Listes ===== */
 ul, ol {
     background-color: rgb(248, 243, 232);
     border-left: 6px solid rgb(20, 28, 58);
@@ -177,7 +166,6 @@ li {
     padding: 4px 0;
 }
 
-/* ===== Citation ===== */
 .citation {
     color: rgb(20, 28, 58);
     border-left: 8px solid rgb(120, 28, 32);
